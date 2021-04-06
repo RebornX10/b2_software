@@ -10,10 +10,10 @@
 
    - [Link to repository](https://github.com/RebornX10/b2_software)
 
-   - Pitch 
-      - Create an interactive rock paper scissors game against a bot
-      - Recognition of the action via a webcame
-      - Recovery of game stats
+   - Pitch
+      - Creation of an interactive rock paper scissors game against a bot
+      - Recognition of the action via a webcam
+      - Game stats storage and analysis
 
    
 
@@ -25,7 +25,7 @@
 
      
 
-   - prerequisite 
+   - Player Prerequisite
 
      - Computer
      - WebCam
@@ -54,13 +54,13 @@
 
    - Login/logout
    - Register
-   - User part
-     - Edit profil 
-     - Stats
+   - User-side
+     - Profil customisation
+     - Game Stats
      - Game launcher
      
      
-   - Admin part
+   - Admin-side
      - Manage player
      - Monitoring
 
@@ -71,13 +71,13 @@
    - User part
    - Admin part
    - Database
-   - Game stat
-   - IA (game boat)
+   - Game stats
+   - Computer Vision IA
 
    
 
 4. **Bonus :**
 
    - Difficulty level
-   - Analyzes of user game stats by the bot
+   - Analysis of user's game stats by the bot in order to predict its next move
 
