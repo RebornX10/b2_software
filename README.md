@@ -13,14 +13,18 @@
      - Python (tensorflow-gpu, opencv2, pyqt5, MYSQL-connector)
      - Docker
      - SQL
-   - prerequisite :
+   - prerequisite 
      - Computer
      - WebCam
    - Division of tasks
      - Samuel
-       - 
+       - Bot
+       - Model trainning
+       - Game
      - Marie
-       - 
+       - Bot
+       - DataBase
+       - GUI
      - RoadMap
    - UML
      - Software
