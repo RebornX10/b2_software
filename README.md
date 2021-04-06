@@ -8,7 +8,7 @@
 
 1. **Presentation :**
 
-   - [Link to repository](https://github.com/RebornX10/b2-software)
+   - [Link to repository](https://github.com/RebornX10/b2_software)
    - Language
    - Division of tasks
 
