@@ -9,7 +9,12 @@
 1. **Presentation :**
 
    - [Link to repository](https://github.com/RebornX10/b2_software)
-   - Language
+   - Language:
+     - Python (tensorflow-gpu, docker, opencv2, pyqt5, MYSQL-connector)
+     - SQL
+   - prerequisite :
+     - Computer
+     - WebCam
    - Division of tasks
      - RoadMap
    - UML
