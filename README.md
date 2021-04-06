@@ -18,10 +18,12 @@
      - WebCam
    - Division of tasks
      - Samuel
+       - UML (software)
        - Bot
        - Model trainning
        - Game
      - Marie
+       - UML (dataBase)
        - Bot
        - DataBase
        - GUI
@@ -32,7 +34,7 @@
 
    
 
-2. **Views :**
+2. **GUI :**
 
    - Login/logout
    - Register
