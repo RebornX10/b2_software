@@ -8,6 +8,9 @@
 
 1. **Presentation :**
 
+   - Pitch 
+      - 
+
    - [Link to repository](https://github.com/RebornX10/b2_software)
    - Techno:
      - Python (tensorflow-gpu, opencv2, pyqt5, MYSQL-connector)
@@ -61,4 +64,5 @@
 4. **Bonus :**
 
    - Difficulty level
+   - Analyzes of user game stats by the bot
 
