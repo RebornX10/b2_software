@@ -40,7 +40,8 @@
    - Register
    - User part
      - Edit profil 
-     - Gaming
+     - Stats
+     - Game launcher
    - Admin part
      - Manage player
      - Monitoring
