@@ -8,32 +8,43 @@
 
 1. **Presentation :**
 
+   - [Link to repository](https://github.com/RebornX10/b2_software)
+
    - Pitch 
       - Create an interactive rock paper scissors game against a bot
       - Recognition of the action via a webcame
       - Recovery of game stats
 
-   - [Link to repository](https://github.com/RebornX10/b2_software)
+   
+
    - Techno:
+
      - Python (tensorflow-gpu, opencv2, pyqt5, MYSQL-connector)
      - Docker
      - SQL
+
+     
+
    - prerequisite 
+
      - Computer
      - WebCam
-   - Division of tasks
-     - Samuel
-       - UML (software)
-       - Bot
-       - Model trainning
-       - Game
-     - Marie
-       - UML (dataBase)
-       - Bot
-       - DataBase
-       - GUI
-     - RoadMap
+
+     
+
+   - Tasks
+
+     |     Samuel      |     Marie      |
+     | :-------------: | :------------: |
+     | UML (software)  | UML (dataBase) |
+     |       Bot       |      Bot       |
+     | Model trainning |    DataBase    |
+     |      Game       |      GUI       |
+
+     
+
    - UML
+
      - Software
      - Database
 
@@ -47,6 +58,8 @@
      - Edit profil 
      - Stats
      - Game launcher
+     
+     
    - Admin part
      - Manage player
      - Monitoring
