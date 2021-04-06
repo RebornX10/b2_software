@@ -11,6 +11,10 @@
    - [Link to repository](https://github.com/RebornX10/b2_software)
    - Language
    - Division of tasks
+     - RoadMap
+   - UML
+     - Software
+     - Database
 
    
 
@@ -32,6 +36,7 @@
    - User part
    - Admin part
    - Database
+   - Game stat
    - IA (game boat)
 
    
