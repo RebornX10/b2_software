@@ -9,7 +9,9 @@
 1. **Presentation :**
 
    - Pitch 
-      - 
+      - Create an interactive rock paper scissors game against a bot
+      - Recognition of the action via a webcame
+      - Recovery of game stats
 
    - [Link to repository](https://github.com/RebornX10/b2_software)
    - Techno:
