@@ -80,4 +80,3 @@
 
    - Difficulty level
    - Analysis of user's game stats by the bot in order to predict its next move
-

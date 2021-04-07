@@ -16,6 +16,7 @@ import glob
 import re
 import matplotlib.pyplot as plt
 from tensorflow.keras import layers
+import datetime as dt
 
 # Importing the Dataset
 path = "ai_dataset//training//"
@@ -108,7 +109,9 @@ model.compile(
     loss=tf.losses.SparseCategoricalCrossentropy(from_logits=True),
     metrics=["accuracy"],
 )
-model.fit(train_ds, validation_data=val_ds, epochs=3)
+model.fit(
+    train_ds, validation_data=val_ds, epochs=25
+)  ###########################################################################################################################################################
 
 # Finer control using tf.data
 list_ds = tf.data.Dataset.list_files(str(data_dir / "*/*"), shuffle=False)
@@ -168,6 +171,7 @@ for image, label in train_ds.take(1):
     print("Image shape: ", image.numpy().shape)
     print("Label: ", label.numpy())
 
+# Performance enhancement
 def configure_for_performance(ds):
     ds = ds.cache()
     ds = ds.shuffle(buffer_size=1000)
@@ -175,5 +179,20 @@ def configure_for_performance(ds):
     ds = ds.prefetch(buffer_size=AUTOTUNE)
     return ds
 
+
 train_ds = configure_for_performance(train_ds)
 val_ds = configure_for_performance(val_ds)
+
+# Dataset visualisation
+image_batch, label_batch = next(iter(train_ds))
+
+plt.figure(figsize=(10, 10))
+for i in range(9):
+    ax = plt.subplot(3, 3, i + 1)
+    plt.imshow(image_batch[i].numpy().astype("uint8"))
+    label = label_batch[i]
+    plt.title(class_names[label])
+    plt.axis("off")
+
+# Saving the model
+model.save("model.h5")
