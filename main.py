@@ -17,6 +17,8 @@ import re
 import matplotlib.pyplot as plt
 from tensorflow.keras import layers
 import datetime as dt
+from tensorflow.python.tools import freeze_graph
+from tensorflow.python.tools import optimize_for_inference_lib
 
 # Importing the Dataset
 path = "ai_dataset//training//"
@@ -109,8 +111,10 @@ model.compile(
     loss=tf.losses.SparseCategoricalCrossentropy(from_logits=True),
     metrics=["accuracy"],
 )
+
+# Best epoch = 9
 model.fit(
-    train_ds, validation_data=val_ds, epochs=25
+    train_ds, validation_data=val_ds, epochs=9
 )  ###########################################################################################################################################################
 
 # Finer control using tf.data
@@ -193,6 +197,13 @@ for i in range(9):
     label = label_batch[i]
     plt.title(class_names[label])
     plt.axis("off")
+
+# Save the config as a .json
+json_config = model.to_json()
+
+f = open("config.json", "w")
+f.write(json_config)
+f.close()
 
 # Saving the model
 model.save("model.h5")
