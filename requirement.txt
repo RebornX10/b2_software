@@ -2,7 +2,6 @@ numpy
 pillow
 tensorflow
 tensorflow_datasets
-glob3
 regex
 matplotlib
 datetime
