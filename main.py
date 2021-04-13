@@ -112,9 +112,9 @@ model.compile(
     metrics=["accuracy"],
 )
 
-# Best epoch = 9
+# Best epoch = 8
 model.fit(
-    train_ds, validation_data=val_ds, epochs=9
+    train_ds, validation_data=val_ds, epochs=8
 )  ###########################################################################################################################################################
 
 # Finer control using tf.data
@@ -206,4 +206,4 @@ f.write(json_config)
 f.close()
 
 # Saving the model
-model.save("model.h5")
+model.save("model.pb")
