@@ -1,0 +1,10 @@
+{
+    "python.formatting.provider": "black",
+    "python.pythonPath": "C:\\Python39\\python.exe",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylamaEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.linting.banditEnabled": true,
+    "git.ignoreLimitWarning": true
+}
