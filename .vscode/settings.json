@@ -1,6 +1,6 @@
 {
     "python.formatting.provider": "black",
-    "python.pythonPath": "C:\\Python39\\python.exe",
+    "python.pythonPath": "C:\\Users\\Owner\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
     "python.linting.pylintEnabled": false,
     "python.linting.enabled": true,
     "python.linting.pylamaEnabled": false,
