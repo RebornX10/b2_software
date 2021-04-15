@@ -22,6 +22,7 @@
      - Python (tensorflow-gpu, opencv2, pyqt5, MYSQL-connector)
      - Docker
      - SQL
+     - Dataset [available here](https://drive.google.com/file/d/1soVUMDIPY0bzNK8eTwViRcPBSwNwBMKg/view?usp=sharing)
 
      
 
