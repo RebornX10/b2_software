@@ -4,18 +4,15 @@
 
 ### Samuel Adone & Marie Dugoua
 
-
-
 1. **Presentation :**
 
    - [Link to repository](https://github.com/RebornX10/b2_software)
 
    - Pitch
-      - Creation of an interactive rock paper scissors game against a bot
-      - Recognition of the action via a webcam
-      - Game stats storage and analysis
 
-   
+     - Creation of an interactive rock paper scissors game against a bot
+     - Recognition of the action via a webcam
+     - Game stats storage and analysis
 
    - Techno:
 
@@ -24,14 +21,10 @@
      - SQL
      - Dataset [available here](https://drive.google.com/file/d/1soVUMDIPY0bzNK8eTwViRcPBSwNwBMKg/view?usp=sharing)
 
-     
-
    - Player Prerequisite
 
      - Computer
      - WebCam
-
-     
 
    - Tasks
 
@@ -42,14 +35,10 @@
      | Model trainning |    DataBase    |
      |      Game       |      GUI       |
 
-     
-
    - UML
 
      - Software
      - Database
-
-   
 
 2. **GUI :**
 
@@ -59,13 +48,9 @@
      - Profil customisation
      - Game Stats
      - Game launcher
-     
-     
    - Admin-side
      - Manage player
      - Monitoring
-
-   
 
 3. **Features**
 
@@ -74,8 +59,6 @@
    - Database
    - Game stats
    - Computer Vision IA
-
-   
 
 4. **Bonus :**
 
