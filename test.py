@@ -14,8 +14,8 @@ with open(classFile, 'rt') as f:
     classNames = f.read().rstrip('\n').split('\n')
 
 # Model Path
-configPath = 'config.json'
-modelPath = 'model.pb/saved_model.pb'
+configPath = 'train.pbtxt'
+modelPath = 'saved_model.pb'
 
 # Detection of the model thru the video feed
 net = cv.dnn_DetectionModel(modelPath,configPath)

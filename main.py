@@ -121,6 +121,11 @@ model.fit(
 list_ds = tf.data.Dataset.list_files(str(data_dir / "*/*"), shuffle=False)
 list_ds = list_ds.shuffle(image_count, reshuffle_each_iteration=False)
 
+# write graph
+v= tf.Variable(0,name="variable")
+sess = tf.compat.v1.Session()
+tf.io.write_graph(sess.graph_def, "model.pb/", "train.pbtxt", as_text=True)
+
 for f in list_ds.take(5):
     print(f.numpy())
 
@@ -205,5 +210,9 @@ f = open("config.json", "w")
 f.write(json_config)
 f.close()
 
+
 # Saving the model
-model.save("model.pb")
+model.save("model.h5")
+#v= tf.Variable(0,name="variable")
+#sess = tf.compat.v1.Session()
+#tf.io.write_graph(sess.graph_def, "model.pb/", "train.pbtxt")
