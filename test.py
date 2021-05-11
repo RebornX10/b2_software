@@ -33,9 +33,10 @@ while True:
         for classId, confidence,box in zip(classIds.flatten(),confs.flatten(),bbox):
             cv.rectangle(img,box,color=(0,255,0),thickness=2)
             cv.putText(img,classNames[classId-1].upper(),(box[0]+10,box[1]+30),
-                        cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
+                        cv.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
             cv.putText(img,str(round(confidence*100,2)),(box[0]+200,box[1]+30),
-                        cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
+                        c
+                        0v.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
 
     cv.imshow("RPS", img)
     cv.waitKey(1)
