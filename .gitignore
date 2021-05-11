@@ -1,6 +1,7 @@
 thisisafile
 ai_dataset/
 ai_dataset.zip
-.vscode
+.vscode/
 .dist
 data
+.vscode/*
