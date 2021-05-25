@@ -1,7 +1,0 @@
-numpy
-pillow
-tensorflow
-tensorflow_datasets
-regex
-matplotlib
-datetime

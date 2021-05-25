@@ -1,4 +1,4 @@
-x, y, w, h = 400, 100, 170, 170
+x, y, w, h = 400, 100, 220 , 220
 paste_coords = (x-300, 100)
 
 model_path = "model/model2/model2.json"
